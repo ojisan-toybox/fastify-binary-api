@@ -1,0 +1,25 @@
+{
+  "name": "fastify-binary-api",
+  "version": "1.0.0",
+  "description": "fastify でバイナリ返すときのアレコレを実験",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojisan-toybox/fastify-binary-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojisan-toybox/fastify-binary-api/issues"
+  },
+  "homepage": "https://github.com/ojisan-toybox/fastify-binary-api#readme",
+  "dependencies": {
+    "fastify": "^4.5.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
