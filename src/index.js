@@ -14,6 +14,7 @@ server.get("/file", async (request, reply) => {
   reply.type(data.type);
   reply.headers({
     "content-disposition": "attachment; filename=aaa.mp3",
+    "Accept-Ranges": "bytes",
   });
   reply.send(Buffer.from(data));
 });
